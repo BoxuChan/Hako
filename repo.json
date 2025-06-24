@@ -16,17 +16,10 @@
     "DownloadCount": 0,
     "LastUpdate": 0,
     "LoadPriority": 0,
-<<<<<<< HEAD
     "DownloadLinkInstall": "https://github.com/BoxuChan/EmoteCounter/releases/download/1.0.0.3/EmoteCounter.zip",
     "DownloadLinkTesting": "https://github.com/BoxuChan/EmoteCounter/releases/download/1.0.0.3/EmoteCounter.zip",
     "DownloadLinkUpdate": "https://github.com/BoxuChan/EmoteCounter/releases/download/1.0.0.3/EmoteCounter.zip",
     "IconUrl": "https://raw.githubusercontent.com/BoxuChan/EmoteCounter/master/assets/icon.png",
-=======
-    "DownloadLinkInstall": "https://github.com/BoxuChan/EmoteCounter/releases/download/1.0.0.2/EmoteCounter.zip",
-    "DownloadLinkTesting": "https://github.com/BoxuChan/EmoteCounter/releases/download/1.0.0.2/EmoteCounter.zip",
-    "DownloadLinkUpdate": "https://github.com/BoxuChan/EmoteCounter/releases/download/1.0.0.2/EmoteCounter.zip",
-    "IconUrl": "https://raw.githubusercontent.com/BoxuChan/EmoteCounter/master/EmoteCounter/assets/icon.png",
->>>>>>> dd94ab77473f91f064233ed5110e98dff352269d
     "Tags": [
       "Boxu"
     ]
