@@ -1,0 +1,6 @@
+[
+  {
+    "repo": "https://raw.githubusercontent.com/BoxuChan/EmoteCounter/master/repo.json",
+    "plugins": ["EmoteCounter"]
+  }
+]
