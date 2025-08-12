@@ -18,3 +18,7 @@ No Plugins will be installed, you have just made them available. You can now sel
 ## [Emote Counter](https://github.com/BoxuChan/EmoteCounter)
 - A plugin meant to count emotes used on you by other players. 
 - Originally developed by [MgAl2O4](https://github.com/MgAl2O4), edited by [BoxuChan](https://github.com/BoxuChan). 
+
+## [Skippy](https://github.com/BoxuChan/Skippy)
+- A plugin meant to help you skip over the cutscenes in MSQ Daily Roulettes. 
+- Originally developed by [a08381](https://github.com/a08381), edited by [BoxuChan](https://github.com/BoxuChan). 
