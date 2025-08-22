@@ -2,5 +2,13 @@
   {
     "repo": "https://raw.githubusercontent.com/BoxuChan/EmoteCounter/master/repo.json",
     "plugins": ["EmoteCounter"]
+  },
+  {
+    "repo": "https://raw.githubusercontent.com/BoxuChan/Skippy/master/repo.json",
+    "plugins": ["Skippy"]
+  },
+  {
+    "repo": "https://raw.githubusercontent.com/BoxuChan/Dare/master/repo.json",
+    "plugins": ["Dare"]
   }
 ]

@@ -22,3 +22,7 @@ No Plugins will be installed, you have just made them available. You can now sel
 ## [Skippy](https://github.com/BoxuChan/Skippy)
 - A plugin meant to help you skip over the cutscenes in MSQ Daily Roulettes. 
 - Originally developed by [a08381](https://github.com/a08381), edited by [BoxuChan](https://github.com/BoxuChan). 
+
+## [Dare](https://github.com/BoxuChan/Dare)
+- A plugin remade from Mare's source code to allow users to make an MCDF Export regardless of Mare's servers existing anymore. 
+- Originally developed by [rootdarkarchon](https://github.com/rootdarkarchon), edited by [BoxuChan](https://github.com/BoxuChan). 
