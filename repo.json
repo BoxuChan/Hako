@@ -48,5 +48,30 @@
     "Tags": [
       "Boxu"
     ]
+  },
+  {
+    "Author": "Boxu",
+    "Name": "HonorificTesting",
+    "Punchline": "We wanna look cool so we're tweaking Caraxi's code to make Gradient Customization possible again!",
+    "Description": "We wanna look cool so we're tweaking Caraxi's code to make Gradient Customization possible again!",
+    "InternalName": "HonorificTesting",
+    "AssemblyVersion": "1.7.0.1",
+    "TestingAssemblyVersion": "1.7.0.1",
+    "RepoUrl": "https://github.com/BoxuChan/Honorific",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 13,
+    "TestingDalamudApiLevel": 13,
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "DownloadCount": 7219,
+    "LastUpdate": 0,
+    "LoadPriority": 0,
+    "DownloadLinkInstall": "https://github.com/BoxuChan/Honorific/releases/download/1.7.0.1/Honorific.zip",
+    "DownloadLinkTesting": "https://github.com/BoxuChan/Honorific/releases/download/1.7.0.1/Honorific.zip",
+    "DownloadLinkUpdate": "https://github.com/BoxuChan/Honorific/releases/download/1.7.0.1/Honorific.zip",
+    "IconUrl": "https://raw.githubusercontent.com/BoxuChan/Honorific/master/Honorific/assets/icon.png",
+    "Tags": [
+      "Boxu"
+    ]
   }
 ]
