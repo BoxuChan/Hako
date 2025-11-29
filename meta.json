@@ -6,5 +6,9 @@
   {
     "repo": "https://raw.githubusercontent.com/BoxuChan/Skippy/master/repo.json",
     "plugins": ["Skippy"]
+  },
+  {
+    "repo": "https://raw.githubusercontent.com/BoxuChan/EmoteCounterHonorific/master/repo.json",
+    "plugins": ["EmoteCounterHonorific"]
   }
 ]
