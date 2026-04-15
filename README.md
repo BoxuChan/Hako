@@ -15,14 +15,18 @@ https://raw.githubusercontent.com/BoxuChan/Hako/main/repo.json
 Following these steps, you should be able to see all contained plugins in the Available Plugins tab in the Dalamud Plugin Installer.
 No Plugins will be installed, you have just made them available. You can now select which of these plugins you actually want to install.
 
+## [Skippy](https://github.com/BoxuChan/Skippy)
+- A plugin meant to help you skip over the cutscenes in MSQ Daily Roulettes & Dungeons. 
+- Originally started by [a08381](https://github.com/a08381), heavily edited and maintained by [BoxuChan](https://github.com/BoxuChan).
+
 ## [Emote Counter](https://github.com/BoxuChan/EmoteCounter)
 - A plugin meant to count emotes used on you by other players. 
-- Originally developed by [MgAl2O4](https://github.com/MgAl2O4), edited by [BoxuChan](https://github.com/BoxuChan). 
-
-## [Skippy](https://github.com/BoxuChan/Skippy)
-- A plugin meant to help you skip over the cutscenes in MSQ Daily Roulettes. 
-- Originally developed by [a08381](https://github.com/a08381), edited by [BoxuChan](https://github.com/BoxuChan). 
+- Originally developed by [MgAl2O4](https://github.com/MgAl2O4), edited and maintained by [BoxuChan](https://github.com/BoxuChan). 
 
 ## [Emote Counter Honorific](https://github.com/BoxuChan/EmoteCounterHonorific)
 - A plugin made to adapt Emote Counter to Honorific titles. 
-- Originally developed by [anya-hichu](https://github.com/anya-hichu), edited by [BoxuChan](https://github.com/BoxuChan). 
+- Originally developed by [anya-hichu](https://github.com/anya-hichu), edited and maintained by [BoxuChan](https://github.com/BoxuChan).
+
+## [WTSync](https://github.com/KhloeLeclair/WTSync)
+- A plugin made to assist you in doing your Wondrous Tails weeklies.
+- Developed by [KhloeLeclair](https://github.com/KhloeLeclair) and [BoxuChan](https://github.com/BoxuChan).
