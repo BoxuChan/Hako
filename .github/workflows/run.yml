@@ -1,29 +1,56 @@
+name: Update PluginMaster Downloads
+
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
-  generate:
-    name: Generate repository
-    runs-on: ubuntu-latest
+  update-repo:
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: main
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          check-latest: true
-      - name: Run generator
-        run: node index.js
-      - name: Commit changes
+
+      - name: Fetch API and Update Download Counts
+        run: |
+          $jsonPath = ".\repo.json"
+          $repoData = Get-Content $jsonPath -Raw | ConvertFrom-Json
+
+          $plugins = @("Skippy", "EmoteCounter", "EmoteCounterHonorific")
+
+          foreach ($pluginName in $plugins) {
+              Write-Host "Checking downloads for $pluginName..."
+              try {
+                  $response = Invoke-RestMethod -Uri "https://api.github.com/repos/BoxuChan/$pluginName/releases"
+                  
+                  $totalDownloads = 0
+                  foreach ($release in $response) {
+                      foreach ($asset in $release.assets) {
+                          if ($asset.name -like "*.zip") {
+                              $totalDownloads += $asset.download_count
+                          }
+                      }
+                  }
+                  Write-Host "Total for $pluginName : $totalDownloads"
+
+                  foreach ($p in $repoData) {
+                      if ($p.InternalName -eq $pluginName) {
+                          $p.DownloadCount = $totalDownloads
+                      }
+                  }
+              } catch {
+                  Write-Host "Data Collection provoked an error on $pluginName."
+              }
+          }
+
+          $repoData | ConvertTo-Json -Depth 10 | Set-Content $jsonPath
+        shell: powershell
+
+      - name: Commit and Push changes
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git fetch origin main
-          git checkout main
+          git config --local user.name "Hako"
           git add repo.json
-          git diff --cached --quiet && exit 0
-          git commit -m "Update repository"
+          
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-Update: Download Count Update"
           git push
