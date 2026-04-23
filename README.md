@@ -5,9 +5,12 @@ This suite gathers up all of the Dalamud plugins I'll be making or editing for F
 ## Installing
 - Enter `/xlsettings` in the chat window and go to the Experimental tab in the opening window.
 - **Skip below the DevPlugins section to the Custom Plugin Repositories section.**
-- Copy and paste the repo.json link into the first free text input field.
+- Copy and paste one of the two following repository links into the first free text input field :
 ```
 https://raw.githubusercontent.com/BoxuChan/Hako/main/repo.json
+```
+```
+https://puni.sh/api/repository/boxu
 ```
 - Click on the + button and make sure the checkmark beside the new field is set afterwards.
 - **Click on the Save-icon in the bottom right.**
