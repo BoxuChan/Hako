@@ -19,7 +19,7 @@ Following these steps, you should be able to see all contained plugins in the Av
 No Plugins will be installed, you have just made them available. You can now select which of these plugins you actually want to install.
 
 ## [Skippy](https://github.com/BoxuChan/Skippy)
-- A plugin meant to help you skip over the cutscenes in MSQ Daily Roulettes & Dungeons. 
+- A plugin meant to help you skip over a bunch of cutscenes that may be skippable or unskippable normally, such as MSQ Daily Roulettes & Dungeons related ones. 
 - Originally started by [a08381](https://github.com/a08381), heavily edited and maintained by [BoxuChan](https://github.com/BoxuChan).
 
 ## [Emote Counter](https://github.com/BoxuChan/EmoteCounter)
@@ -29,6 +29,10 @@ No Plugins will be installed, you have just made them available. You can now sel
 ## [Emote Counter Honorific](https://github.com/BoxuChan/EmoteCounterHonorific)
 - A plugin made to adapt Emote Counter to Honorific titles. 
 - Originally developed by [anya-hichu](https://github.com/anya-hichu), edited and maintained by [BoxuChan](https://github.com/BoxuChan).
+
+## [PluginList](https://github.com/BoxuChan/PluginList)
+- A plugin made to pin your favourite plugins, commands and macros to an hover dock on the edge of your screen.
+- Developed and maintained by [BoxuChan](https://github.com/BoxuChan).
 
 ## [WTSync](https://github.com/KhloeLeclair/WTSync)
 - A plugin made to assist you in doing your Wondrous Tails weeklies.
