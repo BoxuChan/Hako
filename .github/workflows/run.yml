@@ -16,7 +16,7 @@ jobs:
           $jsonPath = ".\repo.json"
           $repoData = Get-Content $jsonPath -Raw | ConvertFrom-Json
 
-          $plugins = @("Skippy", "EmoteCounter", "EmoteCounterHonorific")
+          $plugins = @("Skippy", "EmoteCounter", "EmoteCounterHonorific", "PluginList")
 
           foreach ($pluginName in $plugins) {
               Write-Host "Checking downloads for $pluginName..."
