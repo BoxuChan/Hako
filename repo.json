@@ -153,9 +153,9 @@
         "DownloadCount":  0,
         "LastUpdate":  0,
         "LoadPriority":  0,
-        "DownloadLinkInstall":  "https://github.com/BoxuChan/BetterTargetingSystem/releases/download/0.15.3/BetterTargetingSystem.zip",
-        "DownloadLinkTesting":  "https://github.com/BoxuChan/BetterTargetingSystem/releases/download/0.15.3/BetterTargetingSystem.zip",
-        "DownloadLinkUpdate":  "https://github.com/BoxuChan/BetterTargetingSystem/releases/download/0.15.3/BetterTargetingSystem.zip",
+        "DownloadLinkInstall":  "https://github.com/BoxuChan/BetterTargetingSystem/releases/download/0.15.4/BetterTargetingSystem.zip",
+        "DownloadLinkTesting":  "https://github.com/BoxuChan/BetterTargetingSystem/releases/download/0.15.4/BetterTargetingSystem.zip",
+        "DownloadLinkUpdate":  "https://github.com/BoxuChan/BetterTargetingSystem/releases/download/0.15.4/BetterTargetingSystem.zip",
         "IconUrl":  "https://github.com/BoxuChan/BetterTargetingSystem/raw/main/BetterTargetingSystem/images/icon.png",
         "Tags":  [
                      "Tab",
