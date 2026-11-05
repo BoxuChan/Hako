@@ -10,5 +10,13 @@
   {
     "repo": "https://raw.githubusercontent.com/BoxuChan/EmoteCounterHonorific/master/repo.json",
     "plugins": ["EmoteCounterHonorific"]
+  },
+  {
+    "repo": "https://raw.githubusercontent.com/BoxuChan/PluginList/master/repo.json",
+    "plugins": ["PluginList"]
+  },
+  {
+    "repo": "https://raw.githubusercontent.com/BoxuChan/PeepingCat/master/repo.json",
+    "plugins": ["PeepingCat"]
   }
 ]
