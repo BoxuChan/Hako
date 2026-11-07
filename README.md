@@ -34,6 +34,10 @@ No Plugins will be installed, you have just made them available. You can now sel
 - A plugin made to pin your favourite plugins, commands and macros to an hover dock on the edge of your screen.
 - Developed and maintained by [BoxuChan](https://github.com/BoxuChan).
 
+## [PeepingCat](https://github.com/BoxuChan/PeepingCat)
+- A plugin made to adapt PeepingTim (an edit of PeepingTom) with various QoL Tweak changes for modders.
+- Originally developed by [lnjanos](https://github.com/lnjanos), edited and maintained by [BoxuChan](https://github.com/BoxuChan).
+
 ## [WTSync](https://github.com/KhloeLeclair/WTSync)
 - A plugin made to assist you in doing your Wondrous Tails weeklies.
 - Developed by [KhloeLeclair](https://github.com/KhloeLeclair) and [BoxuChan](https://github.com/BoxuChan).
